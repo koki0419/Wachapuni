@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: e6b5113e400f10b4aa619289836bc9dd
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: body
+    100002: body_joint
+    100004: Head_joint
+    100006: hip_joint
+    100008: Left_eye
+    100010: Left_eyelash
+    100012: Left_eyelid
+    100014: lefteye_joint
+    100016: Lefteyelid_joint
+    100018: lefteyeRotation_joint
+    100020: leg_joint
+    100022: //RootNode
+    100024: Right_eye
+    100026: Right_eyelash
+    100028: Right_eyelid
+    100030: righteye_joint
+    100032: righteyelid_joint
+    100034: righteyeRotation_joint
+    100036: tooth
+    400000: body
+    400002: body_joint
+    400004: Head_joint
+    400006: hip_joint
+    400008: Left_eye
+    400010: Left_eyelash
+    400012: Left_eyelid
+    400014: lefteye_joint
+    400016: Lefteyelid_joint
+    400018: lefteyeRotation_joint
+    400020: leg_joint
+    400022: //RootNode
+    400024: Right_eye
+    400026: Right_eyelash
+    400028: Right_eyelid
+    400030: righteye_joint
+    400032: righteyelid_joint
+    400034: righteyeRotation_joint
+    400036: tooth
+    2100000: Player_slime
+    4300000: Left_eye
+    4300002: Left_eyelid
+    4300004: Left_eyelash
+    4300006: Right_eye
+    4300008: Right_eyelid
+    4300010: Right_eyelash
+    4300012: body
+    4300014: tooth
+    9500000: //RootNode
+    13700000: body
+    13700002: Left_eye
+    13700004: Left_eyelash
+    13700006: Left_eyelid
+    13700008: Right_eye
+    13700010: Right_eyelash
+    13700012: Right_eyelid
+    13700014: tooth
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Player_slime
+    second: {fileID: 2100000, guid: 8d9e16cb20b24de4fbcc98ad0689f25a, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SlimeTex
+    second: {fileID: 2800000, guid: 919145aebd891ac49ac1fdf2df460468, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
