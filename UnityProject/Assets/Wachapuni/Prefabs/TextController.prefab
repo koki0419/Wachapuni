@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1350121081514672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4927442013091416}
+  - component: {fileID: 114998599092227800}
+  - component: {fileID: 114758086162079246}
+  m_Layer: 0
+  m_Name: TextController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4927442013091416
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1350121081514672}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114998599092227800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1350121081514672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 042eb26cef2fd904f86ba01d405243aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerController: {fileID: 0}
+  sceneController: {fileID: 0}
+  redNumSprites:
+  - {fileID: 21300000, guid: bd53a7998c40e7a4faa1a3ed726693ae, type: 3}
+  - {fileID: 21300002, guid: bd53a7998c40e7a4faa1a3ed726693ae, type: 3}
+  - {fileID: 21300004, guid: bd53a7998c40e7a4faa1a3ed726693ae, type: 3}
+  - {fileID: 21300006, guid: bd53a7998c40e7a4faa1a3ed726693ae, type: 3}
+  - {fileID: 21300008, guid: bd53a7998c40e7a4faa1a3ed726693ae, type: 3}
+  - {fileID: 21300010, guid: bd53a7998c40e7a4faa1a3ed726693ae, type: 3}
+  - {fileID: 21300012, guid: bd53a7998c40e7a4faa1a3ed726693ae, type: 3}
+  - {fileID: 21300014, guid: bd53a7998c40e7a4faa1a3ed726693ae, type: 3}
+  - {fileID: 21300016, guid: bd53a7998c40e7a4faa1a3ed726693ae, type: 3}
+  - {fileID: 21300018, guid: bd53a7998c40e7a4faa1a3ed726693ae, type: 3}
+  greenNumSprites:
+  - {fileID: 21300000, guid: 03f72b455b51a934294539b7040b0872, type: 3}
+  - {fileID: 21300002, guid: 03f72b455b51a934294539b7040b0872, type: 3}
+  - {fileID: 21300004, guid: 03f72b455b51a934294539b7040b0872, type: 3}
+  - {fileID: 21300006, guid: 03f72b455b51a934294539b7040b0872, type: 3}
+  - {fileID: 21300008, guid: 03f72b455b51a934294539b7040b0872, type: 3}
+  - {fileID: 21300010, guid: 03f72b455b51a934294539b7040b0872, type: 3}
+  - {fileID: 21300012, guid: 03f72b455b51a934294539b7040b0872, type: 3}
+  - {fileID: 21300014, guid: 03f72b455b51a934294539b7040b0872, type: 3}
+  - {fileID: 21300016, guid: 03f72b455b51a934294539b7040b0872, type: 3}
+  - {fileID: 21300018, guid: 03f72b455b51a934294539b7040b0872, type: 3}
+  blueNumSprites:
+  - {fileID: 21300000, guid: a871b772902b319459e331577edd3842, type: 3}
+  - {fileID: 21300002, guid: a871b772902b319459e331577edd3842, type: 3}
+  - {fileID: 21300004, guid: a871b772902b319459e331577edd3842, type: 3}
+  - {fileID: 21300006, guid: a871b772902b319459e331577edd3842, type: 3}
+  - {fileID: 21300008, guid: a871b772902b319459e331577edd3842, type: 3}
+  - {fileID: 21300010, guid: a871b772902b319459e331577edd3842, type: 3}
+  - {fileID: 21300012, guid: a871b772902b319459e331577edd3842, type: 3}
+  - {fileID: 21300014, guid: a871b772902b319459e331577edd3842, type: 3}
+  - {fileID: 21300016, guid: a871b772902b319459e331577edd3842, type: 3}
+  - {fileID: 21300018, guid: a871b772902b319459e331577edd3842, type: 3}
+  redScoreObj:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  greenScoreObj:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  blueScoreObj:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  clearTimeUI:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &114758086162079246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1350121081514672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac2f252ac15dabb48b888b4fe2d48d49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  errorMessageUI: {fileID: 0}
